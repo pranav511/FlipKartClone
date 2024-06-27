@@ -1,0 +1,109 @@
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    background-color: border-box;
+    border: 1px solid black;
+    border-radius: .25rem;
+}
+.item img {
+    width: 64px;
+}
+.item{
+    margin: 0px 15px;
+    text-align: center;
+}
+.item a:hover{
+    color: blue;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+}
+.card img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.card{
+    padding: 20px;
+    margin: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.dropdown{
+    display: inline;
+    display: flex;
+}
+
+.containers{
+    width: 18em;
+    background-color: rgba(255, 253, 253,1);
+    /* opacity: 0.8; */
+    height: 50vh;
+    border: 1px solid black;
+    position: absolute;
+    left: 75px;
+    z-index: 1;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: -140px;
+    /* display: none; */
+}
+.containers .left{
+    border-right: 1px solid black;
+    width: 9em;
+    height: 100%;
+}
+
+.containers .right{
+        width: 9em;
+        height: 100%;
+        margin-left: -5px;
+        z-index: 1;
+}
+.electronics{
+    left: 380px;
+}
+.fashion{
+    left: 650px;
+}
+.jewelery{
+    left: 930px;
+}
+.products{
+    left:80px;
+
+}
+.products ul{
+    list-style: none;
+    margin-top: 10px;
+    text-align: left;
+}
+.products ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.products ul li{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-left: -15px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.products ul li a:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+
+
+ 
